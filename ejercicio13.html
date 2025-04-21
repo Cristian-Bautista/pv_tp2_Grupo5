@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mostrar Arreglo</title>
+</head>
+<body>
+
+  <h2>Elementos del Arreglo:</h2>
+  <div id="resultado">
+
+  </div>
+  <script>
+    function mostrarArreglo(arreglo) {
+      const contenedor = document.getElementById("resultado");
+      contenedor.innerHTML = "";
+
+      arreglo.forEach(numero => {
+        let p = document.createElement("p");
+        p.textContent = numero;
+        contenedor.appendChild(p);
+      });
+    }
+    const numeros = [10, 20, 30, 40, 50, 60];
+    mostrarArreglo(numeros);
+  </script>
+
+</body>
+</html>
