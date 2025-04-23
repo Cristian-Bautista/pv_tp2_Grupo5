@@ -6,6 +6,7 @@
     <title>Document</title>
 </head>
 <body>
+    <h2>kilometros recorridos </h2>
     <label for="kilometro">Kilometro</label>
     <input type="number" id="kilometro">
 
