@@ -1,29 +1,23 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Mostrar Arreglo</title>
-</head>
-<body>
-
-  <h2>Elementos del Arreglo:</h2>
-  <div id="resultado">
-
-  </div>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio13</title>
   <script>
     function mostrarArreglo(arreglo) {
-      const contenedor = document.getElementById("resultado");
-      contenedor.innerHTML = "";
-
-      arreglo.forEach(numero => {
-        let p = document.createElement("p");
-        p.textContent = numero;
-        contenedor.appendChild(p);
-      });
+      arreglo.forEach((elemento, i) => {
+      alert(`Elemento ${i + 1}: ${elemento}`);
+    });
     }
-    const numeros = [10, 20, 30, 40, 50, 60];
+
+    let entrada = prompt("Ingresa números separados por comas (ejemplo: 1,2,3,etc)");
+    let numeros = entrada.split(",").map(num => parseFloat(num.trim()));
+
     mostrarArreglo(numeros);
   </script>
-
+</head>
+<body>
+  
 </body>
 </html>

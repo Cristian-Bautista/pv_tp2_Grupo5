@@ -5,4 +5,4 @@ edad.forEach((i)=>{
     contador++;
     suma += i;
 })
-console.log('El prommedio de las edad es:'+ suma/contador)
+console.log(`El prommedio de las edad es: ${suma/contador}`)

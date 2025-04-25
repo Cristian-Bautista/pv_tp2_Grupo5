@@ -7,4 +7,4 @@ nombres.forEach((i) => {
   }
 });
 
-console.log("El nombre más largo es:", nombreMasLargo);
+console.log(`El nombre más largo es: ${nombreMasLargo}`);
