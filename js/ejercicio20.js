@@ -6,6 +6,7 @@ export const paisYcapital = {
   "Colombia": "Bogotá",
   "México": "Ciudad de México",
   "Perú": "Lima"
+  
 };
 
 const paises = document.getElementById('paise');
