@@ -10,4 +10,5 @@ entrada.addEventListener('input', () => {
     } else {
         salida.style.backgroundColor = ''; // vuelve al fondo normal
     }
+    
 });
