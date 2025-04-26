@@ -4,15 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script> 
+        function contarLetraA(texto) {
+      let contador = 0;
+      for (let i = 0; i < texto.length; i++) {
+        if (texto[i].toLowerCase() === 'a') {
+          contador++;
+        }
+      }
+      return contador;
+    }
+        const cadena =  prompt("ingrese palabra");
+        const resultado = contarLetraA(cadena);
+        alert("la cantidad de letras a es: " + resultado);
+              
+    </script>
 </head>
 <body>
-<h2>ingrese palabra</h2>
-<h3>palabra</h3>
-<input type="text" id="cadena">
-
-
-<button id="muestra">mostrar</button>
-
-    <script type="module" src="../js/activ17.js" ></script>
 </body>
 </html>

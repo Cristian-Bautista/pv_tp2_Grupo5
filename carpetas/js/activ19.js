@@ -4,7 +4,10 @@ export const most=() => {
     const apellido=document.querySelector('#apellido').value;
     const libreta=document.querySelector('#libreta').value;
 
-alert(`Los datos son ${nombre} ${apellido} ${libreta}`);
+alert(`Los datos son: 
+    nombre: ${nombre}
+    apellido: ${apellido} 
+    siu: ${libreta}`);
    
 }
 
