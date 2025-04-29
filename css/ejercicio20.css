@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap');
+body{
+    font-family: "Tagesschrift", system-ui;
+    margin: 0;
+    padding: 50px;
+}
+div, select{
+    display: block;
+    margin: 15px 0 10px;
+}
+select {
+    padding: 8px;
+    width: 250px;
+}

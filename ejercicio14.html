@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio14</title>
+    <script>
+        function duplicar(i) {
+            return i.map(num => num * 2);
+        }
+        let entrada = prompt("Ingresa números separados por comas (ejemplo: 1, 2, 3, etc)");
+
+        let numeros = entrada.split(",").map(num => parseInt(num.trim()));
+
+        let resultado = duplicar(numeros);
+
+        alert(`Números duplicados: ${resultado.join(", ")}`);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
