@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 9</title>
+    <script>
+        function sumarRango(inicio, fin) {
+            
+            if (inicio > fin) {
+                alert("El número inicial debe ser menor o igual que el número final.");
+                return;
+            }
+            
+            let suma = 0;
+            for (let i = inicio; i <= fin; i++) {
+                suma += i;
+            }
+            return suma;
+        }
+
+        
+        let inicio = parseInt(prompt("Introduce el número inicial:"));
+        let fin = parseInt(prompt("Introduce el número final:"));
+
+        
+        let resultado = sumarRango(inicio, fin);
+        if (resultado !== undefined) {
+            alert("La suma de los números en el rango es: " + resultado);
+        }
+    </script>
+</head>
+<body>
+    <h1>Ejercicio 16: Sumar Rango</h1>
+    <p>Verifica la suma de los números en el rango que introduces.</p>
+</body>
+</html>
