@@ -1,0 +1,23 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: aqua;
+}
+.inicio{
+    /* determina el ancho del recuadro*/
+    width: 30%;
+    /* determina el alto del recuadro*/
+    height: 400px;
+    /* determina que la imagen estre entre lineas  */
+    position: absolute;
+    /* determina la distancia del total la pantalla o del body */
+    top: 30px;
+    /* determina el alto del total de la pantalla o del body */
+    left: 40%;
+    /* determina el color del cuadro */
+    background-color: blanchedalmond;
+}
+div{
+    margin: center;
+
+}
