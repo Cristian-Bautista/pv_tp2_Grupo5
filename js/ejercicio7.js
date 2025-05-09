@@ -5,5 +5,5 @@ nombres.forEach((i) => {
     nombreMasLargo = i;
   }
 });
-
+console.log('Activadad 7');
 console.log(`El nombre más largo es: ${nombreMasLargo}`);

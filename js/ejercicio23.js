@@ -1,4 +1,4 @@
-import { mostrarSeleccion } from './funciones 23.js';
+import { mostrarSeleccion } from './funciones23.js';
 
 const radios = document.querySelectorAll('input[name="lenguaje"]');
 

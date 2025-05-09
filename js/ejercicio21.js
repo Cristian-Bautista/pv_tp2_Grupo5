@@ -1,4 +1,4 @@
-import { actualizarTexto } from './funciones.js';
+import { actualizarTexto } from './funciones21.js';
 
 const input = document.getElementById('entrada');
 
