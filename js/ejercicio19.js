@@ -5,10 +5,10 @@ export const most=() => {
     const libreta=document.querySelector('#libreta').value;
 
 alert(`Los datos son: 
-    nombre: ${nombre}
-    apellido: ${apellido} 
-    siu: ${libreta}`);
+    Nombre: ${nombre}
+    Apellido: ${apellido} 
+    Libreta Universitaria: APU${libreta}`);
    
 }
 
-    document.getElementById('datos').addEventListener('click',most);
+document.getElementById('datos').addEventListener('click',most);

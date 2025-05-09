@@ -1,6 +1,7 @@
-let horas =2;
-let minutos =30;
+let horas =5;
+let minutos =40;
 
+console.log('Activadad 5');
 console.log("horas:", horas);
 console.log("minutos:", minutos);
 

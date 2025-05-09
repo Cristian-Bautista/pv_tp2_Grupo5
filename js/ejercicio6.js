@@ -5,4 +5,5 @@ edad.forEach((i)=>{
     contador++;
     suma += i;
 })
+console.log('Activadad 6');
 console.log(`El prommedio de las edad es: ${suma/contador}`)
